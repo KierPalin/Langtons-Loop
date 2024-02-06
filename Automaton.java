@@ -21,7 +21,7 @@ public class Automaton extends JFrame {
 		try {
 			while (true) {
 				this.grid.updateGrid();
-				this.paint(this.getGraphics());
+				this.getContentPane().paint(this.getGraphics());
 				TimeUnit.MILLISECONDS.sleep(this.delayQuantityMS);
 			}
 		} catch (Exception e) {}
