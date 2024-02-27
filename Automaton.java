@@ -36,8 +36,8 @@ public class Automaton extends JFrame {
 
 
 	public static void main(String[] args) {
-		// Automaton automaton = new Automaton(Integer.parseInt(args[0]), new LangtonsLoop());
-		Automaton automaton = new Automaton(Integer.parseInt(args[0]), new BylsLoop());
+		Automaton automaton = new Automaton(Integer.parseInt(args[0]), new LangtonsLoop());
+		// Automaton automaton = new Automaton(Integer.parseInt(args[0]), new BylsLoop());
 		automaton.simulate();
 	}
 }
